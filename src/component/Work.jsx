@@ -6,7 +6,7 @@ import WorkCard from "./WorkCard";
 
 const Work = () => {
   return (
-    <div className="max-w-[1320px] mx-auto py-[120px]">
+    <div className="max-w-[1320px] mx-auto sm:gitpy-[120px]">
       <div>
         <div>
           <h6 className="font-nunito font-medium text-[24px] leading-[150%] text-[#7968EF] ">
