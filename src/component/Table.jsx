@@ -6,7 +6,7 @@ import { MdOutlineCancelPresentation } from "react-icons/md";
 
 const Table = () => {
   return (
-    <section className="lg:py-[120px]">
+    <section className="pt-[100px]  lg:py-[120px]">
       <div className="max-w-[1320px] mx-auto ">
         <div className="flex flex-col items-center">
           <h6 className="font-nunito font-medium text-[24px] leading-[150%] text-[#7968EF] ">
