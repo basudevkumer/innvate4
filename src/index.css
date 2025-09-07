@@ -22,3 +22,25 @@
   --font-nunito: "Nunito", sans-serif;
   /* font color */
 }
+
+
+
+/* custom resopnsive css for navbar start  */
+ 
+@media (min-width: 320px) and (max-width: 1023.99px) {
+  .flex-property {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .padding-property{
+     padding: 40px;
+  }
+  .opacity-property{
+    opacity: 0;
+  }
+}
+
+/* custom resopnsive css for navbar end  */

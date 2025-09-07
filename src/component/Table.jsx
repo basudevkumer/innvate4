@@ -4,22 +4,20 @@ import TableCard from "./TableCard";
 import { IoIosCheckboxOutline } from "react-icons/io";
 import { MdOutlineCancelPresentation } from "react-icons/md";
 
-
-
 const Table = () => {
   return (
-    <section>
-      <div className="max-w-[1320px] mx-auto py-[120px]">
+    <section className="lg:py-[120px]">
+      <div className="max-w-[1320px] mx-auto ">
         <div className="flex flex-col items-center">
           <h6 className="font-nunito font-medium text-[24px] leading-[150%] text-[#7968EF] ">
             Our pricing
           </h6>
-          <h2 className="text-[#29313D] font-semibold  font-poppins  leading-[140%] text-[48px] pt-[14px]">
+          <h2 className="text-[#29313D] font-semibold  font-poppins   text-[36px]/[140%]   lg:text-[48px]/[140%] pt-[14px]">
             Premium optimization plans
           </h2>
         </div>
-        <div className="grid grid-cols-4 pt-[60px]">
-          <div className="  border-r border-[#D7E6F9] ">
+        <div className=" sm:grid sm:grid-cols-2  lg:grid lg:grid-cols-4 pt-[60px] space-y-[105px]  lg:space-y-[0px] ">
+          <div className="  sm:border-r border-[#D7E6F9] ">
             <TableCard
               dividerClassName={"bg-[#D2EAFD] "}
               heading1={"Save"}
@@ -42,7 +40,7 @@ const Table = () => {
               buttonClassName={"hidden"}
             />
           </div>
-          <div className=" border-r border-[#D7E6F9]  ">
+          <div className=" sm:border-r border-[#D7E6F9]  ">
             <TableCard
               dividerClassName={"bg-[#323232]"}
               heading2={"personal"}
@@ -50,13 +48,13 @@ const Table = () => {
               heading3={"Free"}
               textTwo={"Top 1,000"}
               textThree={"Top 6"}
-              textFour={<IoIosCheckboxOutline/>}
+              textFour={<IoIosCheckboxOutline />}
               headingFourClassName={"text-[40px] !text-[#43CB83]  "}
-              textFive={<MdOutlineCancelPresentation/>}
+              textFive={<MdOutlineCancelPresentation />}
               headingFiveClassName={"text-[40px] !text-[#F36F56] "}
-              textSix={<IoIosCheckboxOutline/>}
+              textSix={<IoIosCheckboxOutline />}
               headingSixClassName={"text-[40px] !text-[#43CB83]  "}
-              textSeven={<IoIosCheckboxOutline/>}
+              textSeven={<IoIosCheckboxOutline />}
               headingSevenClassName={"text-[40px] !text-[#43CB83]  "}
               buttonName={"Try for free"}
               buttonClassName={"bg-[#323232] w-full"}
@@ -70,19 +68,19 @@ const Table = () => {
               heading3={"$59/monthly"}
               textTwo={"5,000"}
               textThree={"13"}
-              textFour={<IoIosCheckboxOutline/>}
+              textFour={<IoIosCheckboxOutline />}
               headingFourClassName={"text-[40px] !text-[#43CB83]  "}
-              textFive={<MdOutlineCancelPresentation/>}
+              textFive={<MdOutlineCancelPresentation />}
               headingFiveClassName={"text-[40px] !text-[#F36F56] "}
-              textSix={<IoIosCheckboxOutline/>}
+              textSix={<IoIosCheckboxOutline />}
               headingSixClassName={"text-[40px] !text-[#43CB83]  "}
-              textSeven={<IoIosCheckboxOutline/>}
+              textSeven={<IoIosCheckboxOutline />}
               headingSevenClassName={"text-[40px] !text-[#43CB83]  "}
               buttonName={"Buy now"}
               buttonClassName={"bg-[#43CB83] w-full"}
             />
           </div>
-          <div className=" border-l border-[#D7E6F9]">
+          <div className=" h-fit sm:border-l border-[#D7E6F9]">
             <TableCard
               dividerClassName={"bg-[#845A9F]"}
               heading2={"Enterprice"}
@@ -90,13 +88,13 @@ const Table = () => {
               heading3={"$299/monthly"}
               textTwo={"10,000"}
               textThree={"200+"}
-              textFour={<IoIosCheckboxOutline/>}
+              textFour={<IoIosCheckboxOutline />}
               headingFourClassName={"text-[40px] !text-[#43CB83]  "}
-              textFive={<IoIosCheckboxOutline/>}
+              textFive={<IoIosCheckboxOutline />}
               headingFiveClassName={"text-[40px] !text-[#43CB83] "}
-              textSix={<IoIosCheckboxOutline/>}
+              textSix={<IoIosCheckboxOutline />}
               headingSixClassName={"text-[40px] !text-[#43CB83]  "}
-              textSeven={<IoIosCheckboxOutline/>}
+              textSeven={<IoIosCheckboxOutline />}
               headingSevenClassName={"text-[40px] !text-[#43CB83]  "}
               buttonName={"Buy now"}
               buttonClassName={"bg-[#845A9F] w-full"}

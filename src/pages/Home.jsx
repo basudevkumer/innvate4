@@ -3,9 +3,8 @@ import Feature from "../component/Feature";
 import Process from "../component/Process";
 import Seo from "../component/Seo";
 import Work from "../component/Work";
-import Table from "../component/Table"
+import Table from "../component/Table";
 import Free from "../component/Free";
-
 
 const Home = () => {
   return (
@@ -15,8 +14,8 @@ const Home = () => {
       <Feature />
       <Process />
       <Work />
-      <Table/>
-      <Free/>
+      <Table />
+      <Free />
     </>
   );
 };

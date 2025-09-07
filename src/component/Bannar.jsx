@@ -8,7 +8,7 @@ import BannarIconFour from "../assets/bannaricon4.png";
 const Bannar = () => {
   return (
     <section
-      className="pt-[98px] pb-[699px] bg-cover bg-no-repeat bg-center relative"
+      className="pt-[98px] pb-[230px] sm:pb-[350px] md:pb-[460px] lg:pb-[699px] bg-cover bg-no-repeat bg-center relative"
       style={{ background: `url(${BannarImage})` }}
     >
       <div className="max-w-[1320px] mx-auto">
@@ -24,29 +24,45 @@ const Bannar = () => {
               <Button children={"CRO"} className={"py-[10px] px-[15px]"} />
             </div>
           </div>
-          <h1 className="text-[64px] font-poppins text-[#fff] font-bold leading-[130%] w-[967px] text-center mx-auto pt-[30px] pb-[20px]">
+          <h1 className=" text-[40px] lg:text-[64px] font-poppins text-[#fff] font-bold leading-[130%]  lg:w-[967px] text-center mx-auto pt-[30px] pb-[20px]">
             Guaranteed increase of your website sales
           </h1>
-          <p className="font-nunito text-[#fff] font-normal text-[18px] leading-[200%] text-center mx-auto w-[780px]">
+          <p className="font-nunito text-[#fff] font-normal text-[16px] lg:text-[18px] leading-[200%] text-center mx-auto lg:w-[780px] ">
             With over 25 years of experience, we have crafted thousands of
             strategic discovery process that enables us to peel back the layers
             which enable us to understand.
           </p>
-          <div className="flex items-center justify-center mt-[48px]">
+          <div className="flex items-center justify-center mt-[48px] ">
             <input
               type="text"
               placeholder="paste your website links"
-              className="p-[30px] bg-[#fff] text-[#29313D] font-nunito font-normal text-[16px] leading-[120%] w-[440px] rounded-l-lg "
+              className="  sm:p-[30.4px] bg-[#fff] text-[#29313D] font-nunito font-normal text-[16px] leading-[120%] py-[13px] px-[5px] md:w-[440px] rounded-l-lg "
             />
-            <button className="text-[#fff] px-[30px] py-[28px]  rounded-r-lg bg-[#6A55EA]   cursor-pointer">
+            <button className="text-[#fff] sm:px-[30px]  sm:py-[28px]  rounded-r-lg bg-[#6A55EA]   cursor-pointer  py-[10.5px]  px-[3px]  whitespace-nowrap ">
               Analyze website
             </button>
           </div>
-          <div className="absolute bottom-[100px] left-[50%] translate-x-[-50%] z-10  flex items-center gap-x-[110px] ">
-            <img src={BannarIconOne} alt="bannarIconOne" />
-            <img src={BannarIconTwo} alt="bannarIconOne" />
-            <img src={BannarIconThree} alt="bannarIconOne" />
-            <img src={BannarIconFour} alt="bannarIconOne" />
+          <div className="absolute bottom-[15px] md:bottom-[100px]  left-[50%] translate-x-[-50%] lg:translate-x-[-50%] z-10  flex items-center gap-x-[10px] sm:gap-x-[30px]  lg:gap-x-[110px] ">
+            <img
+              src={BannarIconOne}
+              alt="bannarIconOne"
+              className="  w-[50px] sm:w-[95px]  lg:w-[128px]"
+            />
+            <img
+              src={BannarIconTwo}
+              alt="bannarIconOne"
+              className="  w-[50px] sm:w-[95px]  lg:w-[128px]"
+            />
+            <img
+              src={BannarIconThree}
+              alt="bannarIconOne"
+              className="  w-[50px] sm:w-[95px]  lg:w-[128px]"
+            />
+            <img
+              src={BannarIconFour}
+              alt="bannarIconOne"
+              className="  w-[50px] sm:w-[95px]  lg:w-[128px]"
+            />
           </div>
         </div>
       </div>

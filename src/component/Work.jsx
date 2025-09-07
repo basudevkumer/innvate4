@@ -16,7 +16,7 @@ const Work = () => {
             Our case studies
           </h2>
         </div>
-        <div className="grid grid-cols-3 gap-x-[30px] pt-[60px]">
+        <div className="md:grid md:grid-cols-3  gap-x-[15px] lg:gap-x-[30px] pt-[60px]  space-y-[65px] sm:space-y-[100px]">
           <div className="">
             <WorkCard
               imageName={Nauture}

@@ -2,14 +2,14 @@ import FeatureImage from "../assets/featureimg.png";
 
 const Feature = () => {
   return (
-    <section className="pt-[180px] pb-[97px]">
+    <section className=" sm:pt-[180px] sm:pb-[97px]">
       <div className="max-w-[1320px] mx-auto">
-        <div className="grid grid-cols-2 gap-x-[200px]">
+        <div className="sm:grid sm:grid-cols-2 md:gap-x-[50px]  lg:gap-x-[200px]">
           <div className="">
             <h6 className="text-[#7968EF] font-medium  font-nunito  leading-[150%] text-[24px]">
               Core feature
             </h6>
-            <h2 className="text-[#29313D] font-semibold  font-poppins  leading-[140%] text-[48px] mt-[10px] mb-[24px]">
+            <h2 className="text-[#29313D] font-semibold  font-poppins text-[48px]/[140%]  mt-[10px] mb-[24px]">
               Get more traffic
             </h2>
             <p className="text-[#29313D] font-normal  font-nunito  leading-[200%] text-[18px]">
@@ -20,7 +20,7 @@ const Feature = () => {
               process
             </p>
 
-            <div className="pt-[40px] flex gap-x-[60px]">
+            <div className="pt-[40px]  flex gap-x-[30px] md:gap-x-[60px]">
               <div
                 className="radial-progress text-[#7968EF]"
                 style={{ "--value": 12 } /* as React.CSSProperties */}
@@ -47,7 +47,7 @@ const Feature = () => {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className=" mt-[75px]  md:mt-0">
             <img src={FeatureImage} alt="FeatureImage" />
           </div>
         </div>

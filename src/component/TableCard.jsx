@@ -25,7 +25,7 @@ const TableCard = ({
   return (
     <div className="">
       <div
-        className={`w-[305px] h-[14px] mx-auto  rounded-[10px]  ${dividerClassName}`}
+        className={`w-[305px] sm:w-[305px] md:w-[305px] lg:w-[245px] xl:w-[305px]     h-[14px] mx-auto  rounded-[10px]  ${dividerClassName}`}
       ></div>
       <h6
         className={`text-[#29313D] font-normal  font-poppins  leading-[160%] text-[24px] pt-[24px] pb-[73px] text-center ${headingOneClassName}`}

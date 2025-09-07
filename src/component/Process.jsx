@@ -13,11 +13,11 @@ const Process = () => {
           <h6 className="text-[#7968EF] font-medium  font-nunito  leading-[150%] text-[24px]  mb-[14px]">
             Our process
           </h6>
-          <h2 className="text-[#29313D] font-semibold  font-poppins  leading-[140%] text-[48px]">
+          <h2 className="text-[#29313D] font-semibold  font-poppins  text-[36px]/[120%] sm:text-[48px]/[140%]">
             How can we help?
           </h2>
         </div>
-        <div className="grid grid-cols-4 gap-x-[30px]">
+        <div className=" space-y-[35px] md:space-y-[85px] lg:space-y-[0px]  sm:grid sm:grid-cols-2  lg:grid lg:grid-cols-4 gap-x-[30px]">
           <div>
             <ProcessCard
               imageName={FeatureCardImgOne}
@@ -51,7 +51,7 @@ const Process = () => {
             />
           </div>
         </div>
-        <div className="pt-[100px] grid grid-cols-2 gap-x-[129px]">
+        <div className="pt-[100px] md:grid md:grid-cols-2 gap-x-[129px] space-y-[40px] md:space-y-[0px]">
           <div className="flex justify-center">
             <img src={AnalyticsImg} alt="AnalyticsImg" />
           </div>
