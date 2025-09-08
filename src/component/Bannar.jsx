@@ -42,7 +42,7 @@ const Bannar = () => {
               Analyze website
             </button>
           </div>
-          <div className="absolute bottom-[15px] md:bottom-[100px]  left-[50%] translate-x-[-50%] lg:translate-x-[-50%] z-10  flex items-center gap-x-[10px] sm:gap-x-[30px]  lg:gap-x-[110px] ">
+          <div className="absolute bottom-[15px] md:bottom-[100px] left-[47%]  sm:left-[50%] translate-x-[-50%]  z-10  flex items-center gap-x-[10px] sm:gap-x-[30px]  lg:gap-x-[110px] ">
             <img
               src={BannarIconOne}
               alt="bannarIconOne"
