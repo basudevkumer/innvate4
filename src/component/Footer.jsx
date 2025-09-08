@@ -13,7 +13,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="">
-          <ul className="flex flex-col md:items-center gap-y-[30px]">
+          <ul className="flex flex-col lg:items-center gap-y-[30px]">
             <li className="mb-[12px]">
               <a
                 href="#"
@@ -65,7 +65,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="">
-          <ul className="flex flex-col md:items-center gap-y-[30px]">
+          <ul className="flex flex-col lg:items-center gap-y-[30px]">
             <li className="mb-[12px]">
               <a
                 href="#"
@@ -101,7 +101,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="">
-          <ul className="flex flex-col md:items-center gap-y-[30px]">
+          <ul className="flex flex-col lg:items-center gap-y-[30px]">
             <li className="mb-[12px]">
               <a
                 href="#"
