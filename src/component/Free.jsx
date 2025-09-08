@@ -20,7 +20,7 @@ const Free = () => {
             <input
               type="text"
               placeholder="paste your website links"
-              className=" p-[12px]  sm:p-[30px] bg-[#fff] text-[#29313D] font-nunito font-normal text-[16px] leading-[120%]  md:w-[440px] rounded-l-lg "
+              className=" p-[12px]  sm:p-[30px] bg-[#fff] text-[#29313D] font-nunito font-normal text-[16px] leading-[120%]   w-[195px] sm:w-[440px] rounded-l-lg "
             />
             <button className="text-[#fff] font-nunito font-normal text-[14px]  px-[0px] py-[11.2px] whitespace-nowrap   sm:text-[18px] sm:px-[30px] sm:py-[26px]  rounded-r-lg bg-[#6A55EA]   cursor-pointer">
               Analyze website
