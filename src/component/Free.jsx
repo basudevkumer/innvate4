@@ -29,7 +29,7 @@ const Free = () => {
           <img
             src={Roket}
             alt="Roket"
-            className="absolute top-[37px] sm:left-[55px] w-[300px]"
+            className="absolute top-[37px] sm:left-[55px] hidden sm:block  w-[300px]"
           />
         </div>
       </div>
