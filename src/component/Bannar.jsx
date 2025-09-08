@@ -36,7 +36,7 @@ const Bannar = () => {
             <input
               type="text"
               placeholder="paste your website links"
-              className="  sm:p-[30.4px] bg-[#fff] text-[#29313D] font-nunito font-normal text-[16px] leading-[120%] py-[13px] px-[5px] w-[195px] sm:w-[440px] rounded-l-lg "
+              className="  sm:p-[30.4px] bg-[#fff] text-[#29313D] font-nunito font-normal text-[16px] leading-[120%] py-[13px] px-[5px] w-[180px] sm:w-[440px] rounded-l-lg "
             />
             <button className="text-[#fff] sm:px-[30px]  sm:py-[28px]  rounded-r-lg bg-[#6A55EA]   cursor-pointer  py-[10.5px]  px-[3px]  whitespace-nowrap ">
               Analyze website
