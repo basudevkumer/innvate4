@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
         <div className={`w-[75%] z-40`}>
           <div
-            className={`lg:static absolute top-[80px] left-0   lg:flex items-center justify-between lg:opacity-100  duration-700 ease-in-out rounded-xl w-full text-center overflow-hidden  lg:overflow-visible ${
+            className={`lg:static absolute top-[80px] left-0    lg:flex items-center justify-between   duration-700 ease-in-out rounded-xl w-full text-center overflow-hidden  lg:overflow-visible lg:h-auto ${
               show == true ? " h-[400px]  " : "h-[0px]  "
             } `}
           >
