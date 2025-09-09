@@ -100,7 +100,7 @@ const Navbar = () => {
             </ul>
             <div className="">
               <Button
-                className={"py-[14px] px-[28px] lg:py-[12px] lg:px-[18px] xl:py-[14px] xl:px-[28px]"}
+                className={"py-[14px] px-[28px] lg:py-[10px] lg:px-[13px] xl:py-[14px] xl:px-[28px]"}
                 children={"Contact Us"}
               />
             </div>
