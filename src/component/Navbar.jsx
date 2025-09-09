@@ -25,13 +25,12 @@ const Navbar = () => {
         </div>
         <div className={`w-[75%] z-40`}>
           <div
-            className={`lg:static  lg:flex items-center justify-between lg:opacity-100   ${
-              show == true
-                ? "bg-amber-500 absolute top-[80px]  left-0 opacity-100   w-full text-center  padding-property  duration-300 ease-in-out rounded-xl "
-                : " absolute top-[0px] opacity-0  left-0  w-full text-center  padding-property  duration-300 ease-in-out  "
+            className={`lg:static absolute top-[80px] left-0   lg:flex items-center justify-between lg:opacity-100  duration-700 ease-in-out rounded-xl w-full text-center overflow-hidden  lg:overflow-visible ${
+              show == true ? " h-[400px]  " : "h-[0px]  "
             } `}
           >
-            <ul className=" lg:flex flex-property  gap-x-[30px] ">
+            <div className="absolute inset-0 bg-[#48409C] -z-10 lg:bg-transparent"></div>
+            <ul className=" lg:flex flex-property  gap-x-[30px] pt-[30px]  lg:pt-0">
               <li>
                 <a
                   href="#"
